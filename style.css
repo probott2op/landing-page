@@ -52,7 +52,10 @@ a{
 .button-1{
     background-color: #3882F6;
     color: white;
-    padding: 8px;
+    padding: 8px 16px;
+    border-radius: 2px;
+    border: none;
+    font-weight: 900;
 }
 img
 {
@@ -147,4 +150,11 @@ img
 {
     font-weight: 900;
     font-size: 24px;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
 }
