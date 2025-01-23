@@ -7,67 +7,75 @@
     <title>Personal page</title>
 </head>
 <body>
-    <div class="upper-color">
-        <div class="upper">
-            <div class="header">
-                <p class="header-logo">Jaiwant personal page</p>
-                <ul>
-                    <li><a href="">about me</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Blog</a></li>
-                </ul>
+    <header>
+        <p class="header-logo">Jaiwant personal page</p>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="">about me</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container1">
+            <div class="main-container1-left">
+                <p class="description-title">My philosophy and my goals</p>
+                <p class="description-text">My philosophy in life is all about setting proper goals and then getting in I would say a miserable state until I achieve them, take any pain, and then repeat, my main motivation is of to be some use in this world by making myself competent. Sign up below to recieve my weekly blogs about how I am faring in my process to change and impact the world for the better</p>
+                <button class="description-button">Sign up for the weekly blog</button>
+            </div class=main-container1-right>
+                <img src="images/philosophy.png" alt="Philosophical image" id="description-img">
             </div>
-            <div class="part1">
-                <div>
-                    <h1>My philosophy and my goals</h1>
-                    <p>My philosophy in life is all about setting proper goals and then getting in I would say a miserable state until I achieve them, take any pain, and then repeat, my main motivation is of to be some use in this world by making myself competent. Sign up below to recieve my weekly blogs about how I am faring in my process to change and impact the world for the better</p>
-                    <button class="button-1">Sign up for the weekly blog</button>
+        </div>
+        <div class="main">
+            <div class="products-container">
+                <p class="info-header">Present goals</p>
+                <div class="info-boxes">
+                    <div class="info-box">
+                        <img src="images/web-dev.jpeg" alt="web dev" class="info-img">
+                        <p class="info-subtext">Complete web dev, a nice website should be up and running</p>
+                        <p class="info-subtext">Target: By 30 Jan 2025</p>
+                    </div>
+                    <div class="info-box">
+                        <img src="images/neural-network.jpg" alt="neural network" class="info-img">
+                        <p class="info-subtext">complete fast.ai machine learning and create a TTS model by taking the coqui TTS and use transfer learning and make a website which takes input any format pdf,epub,anything and then convert it so that you can read as an e-book and your account will have a library of e-books and this website primarily helps the dyslexic</p>
+                        <p class="info-subtext">Target: By 14 Feb 2025</p>
+                    </div>
+                    <div class="info-box">
+                        <img src="images/study.jpg" alt="studying" class="info-img">
+                        <p class="info-subtext">My academic goal is to have perfect clear cut intuition on all the topics that are going to be taught in all the subjects, I dont want to bother with the specifics, but with the intuition as to what it is essentially doing, because the specifics will only be retained if You practise and use it, intuition stays much longer and firmer</p>
+                        <p class="info-subtext">Target: By 30 Jan 2025</p>
+                    </div>
+                    <div class="info-box">
+                        <img src="images/exercise.png" alt="exercise" class="info-img">
+                        <p class="info-subtext">My fitness goal is to be able to do 20 push ups in perfect form and 5 pullups in perfect form</p>
+                        <p class="info-subtext">Target: By 30 Jan 2025</p>
+                    </div>
                 </div>
-                <img src="images/philosophy.png" alt="Philosophical image">
+            </div>
+            <div class="quote-container">
+                <p class="quote-text">"It is not that we have a short time to live, but that we waste a lot of it."</p>
+                <p class="quote-text">"You act like mortals in all that you fear, and like immortals in all that you desire."</p>
+                <div class="quote-author">-Lucius Annaeus Seneca</div>
             </div>
         </div>
-    </div>
-    <div class="part2">
-        <h1>Present goals</h1>
-        <div class="goals">
-            <div class="info">
-                <img src="images/web-dev.jpeg" alt="web dev">
-                <p>Complete web dev, a nice website should be up and running</p>
-                <p>Target: By 30 Jan 2025</p>
-            </div>
-            <div class="info">
-                <img src="images/neural-network.jpg" alt="neural network">
-                <p>complete fast.ai machine learning and create a TTS model by taking the coqui TTS and use transfer learning and make a website which takes input any format pdf,epub,anything and then convert it so that you can read as an e-book and your account will have a library of e-books and this website primarily helps the dyslexic</p>
-                <p>Target: By 14 Feb 2025</p>
-            </div>
-            <div class="info">
-                <img src="images/study.jpg" alt="studying">
-                <p>My academic goal is to have perfect clear cut intuition on all the topics that are going to be taught in all the subjects, I dont want to bother with the specifics, but with the intuition as to what it is essentially doing, because the specifics will only be retained if You practise and use it, intuition stays much longer and firmer</p>
-                <p>Target: By 30 Jan 2025</p>
-            </div>
-            <div class="info">
-                <img src="images/exercise.png" alt="exercise">
-                <p>My fitness goal is to be able to do 20 push ups in perfect form and 5 pullups in perfect form</p>
-                <p>Target: By 30 Jan 2025</p>
+        <div class="signup-container">
+            <div class="signup-container-inner">
+                <div class="signup-container-header-and-info">
+                    <h3>Hurry up and register!</h3>
+                    <p>Sign up to get weekly blog emails on how I am faring with my goals!</p>
+                </div>
+                <div class="signup-container-button">
+                    <button class="button-2">Sign up</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="quotes">
-        <p class="quote-text">"It is not that we have a short time to live, but that we waste a lot of it."</p>
-        <p class="quote-text">"You act like mortals in all that you fear, and like immortals in all that you desire."</p>
-        <p class="quote-author">-Lucius Annaeus Seneca</p>
-    </div>
-    <div class="part3">
-        <div class="sign-up">
-            <div>
-                <p class="hurry">Hurry up and register!</p>
-                <p>Sign up to get weekly blog emails on how I am faring with my goals!</p>
-            </div>
-            <button class="button-2">Sign up</button>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="footer-text">copyright © The Odin Project 2025</p>
         </div>
-    </div>
-    <div class="footer">
-        copyright © The Odin Project 2025
-    </div>
+    </footer>
 </body>
 </html>
