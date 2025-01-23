@@ -1,0 +1,150 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.upper
+{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 64px;
+    padding: 0;
+    border: 0;
+}
+.upper-color
+{
+    background-color: #1F2937;
+}
+.upper h1
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.upper p, .upper a
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-logo
+{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+}
+.part1
+{
+    display: flex;
+}
+.button-1{
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+}
+img
+{
+    padding: 16px;
+    width: 250px;
+    height: 250px;
+}
+.part2 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.part2{
+    margin: 16px 0;
+}
+.goals
+{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: baseline;
+}
+.info
+{
+    max-width: 300px;
+}
+.quotes
+{
+    background-color: #E5E7EB;
+    padding: 32px;
+}
+.quote-text
+{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+.quote-author
+{
+    font-size: 48px;
+    display: flex;
+    justify-content: end;
+}
+.sign-up
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #3882F6;
+    max-width: 600px;
+    max-height: 500px;
+    color: #F9FAF8;
+    padding: 32px;
+    border-radius: 3px;
+}
+.part3
+{
+    margin: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-2
+{
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    padding: 16px;
+    font-size: 16px;
+    color: #F9FAF8;
+    border-radius: 2px;
+    white-space: nowrap;
+    font-weight: 900;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+    font-family: Roboto;
+    padding: 24px;
+}
+.hurry
+{
+    font-weight: 900;
+    font-size: 24px;
+}
